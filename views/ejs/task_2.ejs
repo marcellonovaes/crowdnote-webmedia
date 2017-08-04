@@ -62,7 +62,6 @@
 
 
 
-<!-- The Modal -->
 <div id="modal" class="modal">
 
   <!-- Modal content -->
@@ -157,21 +156,24 @@ var pos = 0;
 var modal = document.getElementById('modal');
 var span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
+
 showSuggestion();
     	modal.style.display = "none";
 	showSuggestion();
 }
+
 modal.onclick = function() {
-showSuggestion();
     	modal.style.display = "none";
 	showSuggestion();
 }
+
 window.onclick = function(event) {
+
     if (event.target == modal) {
-showSuggestion();
         modal.style.display = "none";
 	showSuggestion();
     }
+
 }
 
 

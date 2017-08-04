@@ -19,7 +19,7 @@ var dao = new database.DAO();
 var dataset;
 dao.loadDataset(function (d){ init(d); });
 
-var activeTask = 3;
+var activeTask = 4;
 var input;
 
 // ---------------------  Init Functions -----------------------------
